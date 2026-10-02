@@ -1,0 +1,2552 @@
+[
+  {
+    "id": "g120_F01000_300",
+    "text": "Fault F01000 (SINAMICS G120 (CU230P-2)): Software fault in CU. Remedy: Replace CU.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01000",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01001_300",
+    "text": "Fault F01001 (SINAMICS G120 (CU230P-2)): Floating Point Exception. Remedy: Switch CU off and on again.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01001",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01015_300",
+    "text": "Fault F01015 (SINAMICS G120 (CU230P-2)): Software fault in CU. Remedy: Upgrade firmware or contact technical support.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01015",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01018_300",
+    "text": "Fault F01018 (SINAMICS G120 (CU230P-2)): Power-up aborted more than once. Remedy: After this fault is output, the converter powers up with the factory settings. Remedy: Back up factory setting with p0971=1. Switch CU off and on again. Recommission the converter.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01018",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01040_300",
+    "text": "Fault F01040 (SINAMICS G120 (CU230P-2)): Parameters must be saved. Remedy: Save parameters (p0971). Switch CU off and on again.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01040",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01044_300",
+    "text": "Fault F01044 (SINAMICS G120 (CU230P-2)): Loading of memory data card defective. Remedy: Replace memory card or CU.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01044",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01105_300",
+    "text": "Fault F01105 (SINAMICS G120 (CU230P-2)): CU: Insufficient memory. Remedy: Reduce number of data records.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01105",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01205_300",
+    "text": "Fault F01205 (SINAMICS G120 (CU230P-2)): CU: Time slice overflow. Remedy: Contact technical support.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01205",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01250_300",
+    "text": "Fault F01250 (SINAMICS G120 (CU230P-2)): CU hardware fault. Remedy: Replace CU.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01250",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01512_300",
+    "text": "Fault F01512 (SINAMICS G120 (CU230P-2)): An attempt has been made to establish an conversion factor for scaling which is not present. Remedy: Create scaling or check transfer value.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01512",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01662_300",
+    "text": "Fault F01662 (SINAMICS G120 (CU230P-2)): CU hardware fault. Remedy: Switch CU off and on again, upgrade firmware, or contact technical support.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01662",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F30022_300",
+    "text": "Fault F30022 (SINAMICS G120 (CU230P-2)): Power Module: Monitoring UCE. Remedy: Check or replace the Power Module.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30022",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F30052_300",
+    "text": "Fault F30052 (SINAMICS G120 (CU230P-2)): Incorrect Power Module data. Remedy: Replace Power Module or upgrade CU firmware.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30052",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F30053_300",
+    "text": "Fault F30053 (SINAMICS G120 (CU230P-2)): Error in FPGA data. Remedy: Replace the Power Module.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30053",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F30662_300",
+    "text": "Fault F30662 (SINAMICS G120 (CU230P-2)): CU hardware fault. Remedy: Switch CU off and on again, upgrade firmware, or contact technical support.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30662",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F30664_300",
+    "text": "Fault F30664 (SINAMICS G120 (CU230P-2)): CU power up aborted. Remedy: Switch CU off and on again, upgrade firmware, or contact technical support.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30664",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F30850_300",
+    "text": "Fault F30850 (SINAMICS G120 (CU230P-2)): Software fault in Power Module. Remedy: Replace Power Module or contact technical support.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30850",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_A01028_300",
+    "text": "Alarm A01028 (SINAMICS G120 (CU230P-2)): Configuration error. Remedy: Explanation: Parameterization on the memory card has been created with a different type of module (order number, MLFB) Check the module parameters and recommission if necessary.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A01028",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01033_300",
+    "text": "Fault F01033 (SINAMICS G120 (CU230P-2)): Switching over units: Reference parameter value invalid. Remedy: Set the value of the reference parameter not equal to 0.0 (p0304, p0305, p0310, p0596, p2000, p2001, p2002, p2003, r2004).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01033",
+    "source_doc": "G120.pdf",
+    "page": 300
+  },
+  {
+    "id": "g120_F01034_301",
+    "text": "Fault F01034 (SINAMICS G120 (CU230P-2)): Switching over units: Calculation of the parameter values after reference value change unsuccessful. Remedy: Select the value of the reference parameter so that the parameters involved can be calculated in the per unit notation (p0304, p0305, p0310, p0596, p2000, p2001, p2002, p2003, r2004).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01034",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A01053_301",
+    "text": "Alarm A01053 (SINAMICS G120 (CU230P-2)): System overload measured. Remedy: The maximum computing power of the control unit was exceeded. The following measures reduce the load on the control unit: \u2022 Use only one data record (CDS and DDS) \u2022 Only use the safety features of the basic functions \u2022 Deactivate the technology controller \u2022 Use the simple ramp-function generator rather than the extended ramp-function generator \u2022 Do not use any free function components \u2022 Reduce the sampling time of the free function blocks",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A01053",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_F01054_301",
+    "text": "Fault F01054 (SINAMICS G120 (CU230P-2)): System limit exceeded. Remedy: The maximum computing power of the control unit was exceeded. The following measures reduce the load on the control unit: \u2022 Use only one data record (CDS and DDS) \u2022 Only use the safety features of the basic functions \u2022 Deactivate the technology controller \u2022 Use the simple ramp-function generator rather than the extended ramp-function generator \u2022 Do not use any free function components \u2022 Reduce the sampling time of the free function blocks",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01054",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_F01122_301",
+    "text": "Fault F01122 (SINAMICS G120 (CU230P-2)): Frequency at the probe input too high. Remedy: Reduce the frequency of the pulses at the probe input.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F01122",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A01590_301",
+    "text": "Alarm A01590 (SINAMICS G120 (CU230P-2)): Motor maintenance interval lapsed. Remedy: Carry out maintenance and reset the maintenance interval (p0651).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A01590",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A01900_301",
+    "text": "Alarm A01900 (SINAMICS G120 (CU230P-2)): PROFIBUS: Configuration telegram faulty. Remedy: Explanation: A PROFIBUS master is attempting to establish a connection with a faulty configuration telegram. Check the bus configuration on the master and slave side.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A01900",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A01910 F01910_301",
+    "text": "Alarm A01910 F01910 (SINAMICS G120 (CU230P-2)): Setpoint timeout. Remedy: The alarm is generated when p2040 \u2260 0 ms and one of the following causes is present: \u2022 The bus connection is interrupted \u2022 The Modbus master is switched off \u2022 Communications error (CRC, parity bit, logical error) \u2022 An excessively low value for the fieldbus monitoring time (p2040)",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A01910 F01910",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A01920_301",
+    "text": "Alarm A01920 (SINAMICS G120 (CU230P-2)): PROFIBUS: Cyclic connection interrupt. Remedy: Explanation: The cyclic connection to PROFIBUS master is interrupted. Establish the PROFIBUS connection and activate the PROFIBUS master with cyclic operation.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A01920",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_F03505_301",
+    "text": "Fault F03505 (SINAMICS G120 (CU230P-2)): Analog input, wire break. Remedy: Check the wiring for interruptions. Check the level of the injected signal. The input current measured by the analog input can be read out in r0752.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F03505",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A03520_301",
+    "text": "Alarm A03520 (SINAMICS G120 (CU230P-2)): Temperature sensor fault. Remedy: Check that the sensor is connected correctly.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A03520",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A05000 A05001 A05002 A05004 A05006_301",
+    "text": "Alarm A05000 A05001 A05002 A05004 A05006 (SINAMICS G120 (CU230P-2)): Power Module overtemperature. Remedy: Check the following: - Is the ambient temperature within the defined limit values? - Are the load conditions and duty cycle configured accordingly? - Has the cooling failed?",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A05000 A05001 A05002 A05004 A05006",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_F06310_301",
+    "text": "Fault F06310 (SINAMICS G120 (CU230P-2)): Supply voltage (p0210) incorrectly set. Remedy: Check the set supply voltage and if required change (p0210). Check the line voltage.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F06310",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_F07011_301",
+    "text": "Fault F07011 (SINAMICS G120 (CU230P-2)): Motor overtemperature. Remedy: Reduce the motor load. Check the ambient temperature. Check the wiring and connection of the sensor.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07011",
+    "source_doc": "G120.pdf",
+    "page": 301
+  },
+  {
+    "id": "g120_A07012_302",
+    "text": "Alarm A07012 (SINAMICS G120 (CU230P-2)): I2t Motor Module overtemperature. Remedy: Check and if necessary reduce the motor load. Check the motor's ambient temperature. Check the thermal time constant p0611. Check the overtemperature fault threshold p0605.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07012",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_A07015_302",
+    "text": "Alarm A07015 (SINAMICS G120 (CU230P-2)): Motor temperature sensor alarm. Remedy: Check that the sensor is connected correctly. Check the parameter assignment (p0601).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07015",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_F07016_302",
+    "text": "Fault F07016 (SINAMICS G120 (CU230P-2)): Motor temperature sensor fault. Remedy: Make sure that the sensor is connected correctly. Check the parameterization (p0601). Deactivate the motor temperature sensor fault evaluation (p0607 = 0).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07016",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_F07086 F07088_302",
+    "text": "Fault F07086 F07088 (SINAMICS G120 (CU230P-2)): Switching over units: Parameter limit violation. Remedy: Check the adapted parameter values and if required correct.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07086 F07088",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_F07320_302",
+    "text": "Fault F07320 (SINAMICS G120 (CU230P-2)): Automatic restart aborted. Remedy: Increase the number of restart attempts (p1211). The actual number of start attempts is shown in r1214. Increase the wait time in p1212 and/or monitoring time in p1213. Connect an ON command (p0840). Increase the monitoring time of the power unit or switch off (p0857). Reduce the wait time for resetting the fault counter p1213[1] so that fewer faults are registered in the time interval.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07320",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_A07321_302",
+    "text": "Alarm A07321 (SINAMICS G120 (CU230P-2)): Automatic restart active. Remedy: Explanation: The automatic restart (AR) is active. During voltage recovery and/or when remedying the causes of pending faults, the drive is automatically switched back on.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07321",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_F07330_302",
+    "text": "Fault F07330 (SINAMICS G120 (CU230P-2)): Search current measured too low. Remedy: Increase the search current (p1202), check the motor connection.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07330",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_A07353_302",
+    "text": "Alarm A07353 (SINAMICS G120 (CU230P-2)): DC quantity control deactivated. Remedy: The controller to suppress DC components in the motor current was at its limit and deactivated itself. \u2022 Increase the integral time p3858 of the DC quantity controller \u2022 Decrease the gain p3857 of the DC quantity controller",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07353",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_A07400_302",
+    "text": "Alarm A07400 (SINAMICS G120 (CU230P-2)): DC-link voltage maximum controller active. Remedy: If it is not desirable that the controller intervenes: \u2022 Increase the ramp-down times. \u2022 Deactivate the Vdc_max control (p1240 = 0 for vector control, p1280 = 0 for U/f control).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07400",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_A07409_302",
+    "text": "Alarm A07409 (SINAMICS G120 (CU230P-2)): U/f control, current limiting controller active. Remedy: The alarm automatically disappears after one of the following measures: \u2022 Increase the current limit (p0640). \u2022 Reduce the load. \u2022 Slow down the ramp-ups for the setpoint speed.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07409",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_F07426_302",
+    "text": "Fault F07426 (SINAMICS G120 (CU230P-2)): Technology controller actual value limited. Remedy: \u2022 Adapt the limits to the signal level (p2267, p2268). \u2022 Check the actual value scaling (p2264).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07426",
+    "source_doc": "G120.pdf",
+    "page": 302
+  },
+  {
+    "id": "g120_F07801_303",
+    "text": "Fault F07801 (SINAMICS G120 (CU230P-2)): Motor overcurrent. Remedy: Check the current limits (p0640). Vector control: Check the current controller (p1715, p1717). U/f control: Check the current limiting controller (p1340 \u2026 p1346). Increase the acceleration ramp (p1120) or reduce the load. Check the motor and motor cables for short-circuit and ground fault. Check the motor regarding the star/delta connection and rating plate parameterization. Check the power unit / motor combination. Select the flying restart function (p1200) if switched to rotating motor.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07801",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_A07805_303",
+    "text": "Alarm A07805 (SINAMICS G120 (CU230P-2)): Drive: Power unit overload I2t. Remedy: \u2022 Reduce the continuous load. \u2022 Adapt the load cycle. \u2022 Check the assignment of rated currents of the motor and power unit.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07805",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_F07806_303",
+    "text": "Fault F07806 (SINAMICS G120 (CU230P-2)): Regenerative power limit exceeded. Remedy: Increase the deceleration ramp. Reduce the driving load. Use a power unit with higher energy recovery capability. For vector control, the regenerative power limit in p1531 can be reduced until the fault is no longer activated.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07806",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_F07807_303",
+    "text": "Fault F07807 (SINAMICS G120 (CU230P-2)): Short-circuit detected. Remedy: \u2022 Check the inverter connection on the motor side for any phase-phase short-circuit. \u2022 Rule out that line and motor cables have been interchanged.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07807",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_A07850 A07851 A07852_303",
+    "text": "Alarm A07850 A07851 A07852 (SINAMICS G120 (CU230P-2)): External alarm 1 \u2026 3. Remedy: The signal for \"external alarm 1\" has been triggered. Parameters p2112, p2116 and p2117 determine the signal sources for the external alarm 1\u2026 3. Remedy: Remove the causes of these alarms.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07850 A07851 A07852",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_F07860 F07861 F07862_303",
+    "text": "Fault F07860 F07861 F07862 (SINAMICS G120 (CU230P-2)): External fault 1 \u2026 3. Remedy: Remove the external causes for this fault.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07860 F07861 F07862",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_F07900_303",
+    "text": "Fault F07900 (SINAMICS G120 (CU230P-2)): Motor blocked. Remedy: Check that the motor can run freely. Check the torque limits (r1538 and r1539). Check the parameters of the \"Motor blocked\" message (p2175, p2177).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07900",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_F07901_303",
+    "text": "Fault F07901 (SINAMICS G120 (CU230P-2)): Motor overspeed. Remedy: Activate the precontrol for the speed limiting controller (p1401 bit 7 = 1). Increase the hysteresis for overspeed signal p2162.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07901",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_F07902_303",
+    "text": "Fault F07902 (SINAMICS G120 (CU230P-2)): Motor stalled. Remedy: Check whether the motor data has been set correctly and perform a motor identification. Check the current limits (p0640, r0067, r0289). If the current limits are too low, the drive cannot be magnetized. Check whether motor cables are disconnected during operation.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07902",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_A07903_303",
+    "text": "Alarm A07903 (SINAMICS G120 (CU230P-2)): Motor speed deviation. Remedy: Increase p2163 and/or p2166. Increase the torque, current and power limits.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07903",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_A07910_303",
+    "text": "Alarm A07910 (SINAMICS G120 (CU230P-2)): Motor overtemperature. Remedy: Check the motor load. Check the motor's ambient temperature. Check the KTY84 sensor. Check the overtemperatures of the thermal model (p0626 ... p0628).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07910",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_A07920_303",
+    "text": "Alarm A07920 (SINAMICS G120 (CU230P-2)): Torque/speed too low. Remedy: The torque deviates from the torque/speed envelope curve.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07920",
+    "source_doc": "G120.pdf",
+    "page": 303
+  },
+  {
+    "id": "g120_A07921_304",
+    "text": "Alarm A07921 (SINAMICS G120 (CU230P-2)): Torque/speed too high. Remedy: \u2022 Check the connection between the motor and the load. \u2022 Adapt the parameterization corresponding to the load.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07921",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A07922_304",
+    "text": "Alarm A07922 (SINAMICS G120 (CU230P-2)): Torque/speed out of tolerance. Remedy: \u2022 Check the connection between the motor and the load. \u2022 Adapt the parameterization corresponding to the load.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07922",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F07923_304",
+    "text": "Fault F07923 (SINAMICS G120 (CU230P-2)): Torque/speed too low. Remedy: \u2022 Check the connection between the motor and the load. \u2022 Adapt the parameterization corresponding to the load.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07923",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F07924_304",
+    "text": "Fault F07924 (SINAMICS G120 (CU230P-2)): Torque/speed too high. Remedy: \u2022 Check the connection between the motor and the load. \u2022 Adapt the parameterization corresponding to the load.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F07924",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A07927_304",
+    "text": "Alarm A07927 (SINAMICS G120 (CU230P-2)): DC braking active. Remedy: Not required",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07927",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A07980_304",
+    "text": "Alarm A07980 (SINAMICS G120 (CU230P-2)): Rotary measurement activated. Remedy: Not required",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07980",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A07981_304",
+    "text": "Alarm A07981 (SINAMICS G120 (CU230P-2)): No enabling for rotary measurement. Remedy: Acknowledge pending faults. Establish missing enables (see r00002, r0046).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07981",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A07991_304",
+    "text": "Alarm A07991 (SINAMICS G120 (CU230P-2)): Motor identification activated. Remedy: Switch on the motor and identify the motor data.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A07991",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F08501_304",
+    "text": "Fault F08501 (SINAMICS G120 (CU230P-2)): Setpoint timeout. Remedy: \u2022 Check the PROFINET connection. \u2022 Set the controller into the RUN mode. \u2022 If the fault occurs repeatedly, check the monitoring time set p2044.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F08501",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F08502_304",
+    "text": "Fault F08502 (SINAMICS G120 (CU230P-2)): Monitoring time, sign-of-life expired. Remedy: \u2022 Check the PROFINET connection.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F08502",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F08510_304",
+    "text": "Fault F08510 (SINAMICS G120 (CU230P-2)): Send configuration data not valid. Remedy: \u2022 Check the PROFINET configuration",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F08510",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A08511_304",
+    "text": "Alarm A08511 (SINAMICS G120 (CU230P-2)): Receive configuration data not valid. Remedy: \u2022 Check the PROFINET configuration",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A08511",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A08526_304",
+    "text": "Alarm A08526 (SINAMICS G120 (CU230P-2)): No cyclic connection. Remedy: \u2022 Activate the controller with cyclic operation. \u2022 Check the parameters \"Name of Station\" and \"IP of Station\" (r61000, r61001).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A08526",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_A08565_304",
+    "text": "Alarm A08565 (SINAMICS G120 (CU230P-2)): Consistency error affecting adjustable parameters. Remedy: Check the following: \u2022 IP address, subnet mask or default gateway is not correct. \u2022 IP address or station name used twice in the network. \u2022 Station name contains invalid characters.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A08565",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F08700_304",
+    "text": "Fault F08700 (SINAMICS G120 (CU230P-2)): Communications error. Remedy: A CAN communications error has occurred. Check the following: \u2022 Bus cable \u2022 Baud rate (p8622) \u2022 Bit timing (p8623) \u2022 Master Start the CAN controller manually with p8608 = 1 after the cause of the fault has been resolved!",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F08700",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F13100_304",
+    "text": "Fault F13100 (SINAMICS G120 (CU230P-2)): Know-how protection: Copy protection error. Remedy: The know-how protection and the copy protection for the memory card are active. An error occurred when checking the memory card. \u2022 Insert a suitable memory card and switch the inverter supply voltage temporarily off and then on again (POWER ON). \u2022 Deactivate the copy protection (p7765).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F13100",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F13101_304",
+    "text": "Fault F13101 (SINAMICS G120 (CU230P-2)): Know-how protection: Copy protection cannot be activated. Remedy: Insert a valid memory card.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F13101",
+    "source_doc": "G120.pdf",
+    "page": 304
+  },
+  {
+    "id": "g120_F30001_305",
+    "text": "Fault F30001 (SINAMICS G120 (CU230P-2)): Overcurrent. Remedy: Check the following: \u2022 Motor data, if required, carry out commissioning \u2022 Motor connection method (\u03a5 / \u0394) \u2022 U/f operation: Assignment of rated currents of motor and Power Module \u2022 Line quality \u2022 Make sure that the line commutating reactor is connected properly \u2022 Power cable connections \u2022 Power cables for short-circuit or ground fault \u2022 Power cable length \u2022 Line phases If this doesn't help: \u2022 U/f operation: Increase the acceleration ramp \u2022 Reduce the load \u2022 Replace the power unit",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30001",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30002_305",
+    "text": "Fault F30002 (SINAMICS G120 (CU230P-2)): DC-link voltage overvoltage. Remedy: Increase the ramp-down time (p1121). Set the rounding times (p1130, p1136). Activate the DC-link voltage controller (p1240, p1280). Check the line voltage (p0210). Check the line phases.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30002",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30003_305",
+    "text": "Fault F30003 (SINAMICS G120 (CU230P-2)): DC-link voltage undervoltage. Remedy: Check the line voltage (p0210).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30003",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30004_305",
+    "text": "Fault F30004 (SINAMICS G120 (CU230P-2)): Inverter overtemperature. Remedy: Check whether the inverter fan is running. Check whether the ambient temperature is in the permissible range. Check whether the motor is overloaded. Reduce the pulse frequency.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30004",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30005_305",
+    "text": "Fault F30005 (SINAMICS G120 (CU230P-2)): I2t inverter overload. Remedy: Check the rated currents of the motor and Power Module. Reduce the current limit p0640. When operating with U/f characteristic: Reduce p1341.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30005",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30011_305",
+    "text": "Fault F30011 (SINAMICS G120 (CU230P-2)): Line phase failure. Remedy: Check the inverter's input fuses. Check the motor feeder cables.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30011",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30015_305",
+    "text": "Fault F30015 (SINAMICS G120 (CU230P-2)): Motor cable phase failure. Remedy: Check the motor cables. Increase the ramp-up or ramp-down time (p1120).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30015",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30021_305",
+    "text": "Fault F30021 (SINAMICS G120 (CU230P-2)): Ground fault. Remedy: \u2022 Check the power cable connections. \u2022 Check the motor. \u2022 Check the current transformer. \u2022 Check the cables and contacts of the brake connection (a wire might be broken).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30021",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30027_305",
+    "text": "Fault F30027 (SINAMICS G120 (CU230P-2)): Time monitoring for DC link pre- charging. Remedy: Check the supply voltage at the input terminals. Check the line voltage setting (p0210).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30027",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30035_305",
+    "text": "Fault F30035 (SINAMICS G120 (CU230P-2)): Overtemperature, intake air. Remedy: \u2022 Check whether the fan is running.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30035",
+    "source_doc": "G120.pdf",
+    "page": 305
+  },
+  {
+    "id": "g120_F30036_306",
+    "text": "Fault F30036 (SINAMICS G120 (CU230P-2)): Overtemperature, inside area. Remedy: \u2022 Check the fan filter elements. \u2022 Check whether the ambient temperature is in the permissible range.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30036",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_F30037_306",
+    "text": "Fault F30037 (SINAMICS G120 (CU230P-2)): Rectifier overtemperature. Remedy: See F30035 and, in addition: \u2022 Check the motor load. \u2022 Check the line phases",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30037",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_A30049_306",
+    "text": "Alarm A30049 (SINAMICS G120 (CU230P-2)): Internal fan defective. Remedy: Check the internal fan and if required replace.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A30049",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_F30059_306",
+    "text": "Fault F30059 (SINAMICS G120 (CU230P-2)): Internal fan defective. Remedy: Check the internal fan and if required replace.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "F30059",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_A30502_306",
+    "text": "Alarm A30502 (SINAMICS G120 (CU230P-2)): DC-link overvoltage. Remedy: \u2022 Check the unit supply voltage (p0210). \u2022 Check the dimensioning of the line reactor.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A30502",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_A30920_306",
+    "text": "Alarm A30920 (SINAMICS G120 (CU230P-2)): Temperature sensor fault. Remedy: Check that the sensor is connected correctly.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A30920",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_A50001_306",
+    "text": "Alarm A50001 (SINAMICS G120 (CU230P-2)): PROFINET configuration error. Remedy: A PROFINET controller is attempting to establish a connection with an incorrect configuration telegram. Check whether \"Shared Device\" is activated (p8929 = 2).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A50001",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_A50010_306",
+    "text": "Alarm A50010 (SINAMICS G120 (CU230P-2)): PROFINET name of station invalid. Remedy: Correct name of station (p8920) and activate (p8925 = 2).",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A50010",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_A50020_306",
+    "text": "Alarm A50020 (SINAMICS G120 (CU230P-2)): PROFINET: Second controller missing. Remedy: \"Shared Device\" is activated (p8929 = 2). However, only the connection to a PROFINET controller is available.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "A50020",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "g120_For further information, please refer to the List Manual._306",
+    "text": "Fault For further information, please refer to the List Manual. (SINAMICS G120 (CU230P-2)): None. Remedy: \"Shared Device\" is activated (p8929 = 2). However, only the connection to a PROFINET controller is available.",
+    "doc_type": "alarm_code",
+    "machine_type": "drive",
+    "model": "SINAMICS G120 (CU230P-2)",
+    "code": "For further information, please refer to the List Manual.",
+    "source_doc": "G120.pdf",
+    "page": 306
+  },
+  {
+    "id": "s71500_16#0000_108",
+    "text": "Error 16#0000 (SIMATIC S7-1500 (CM PtP module)): No error.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0000",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#0094_108",
+    "text": "Error 16#0094 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): frame end identified based on the \"Receipt of fixed/maximum frame length\".",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0094",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#0095_108",
+    "text": "Error 16#0095 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): frame end identified based on \"Message timeout\".",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0095",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#0096_108",
+    "text": "Error 16#0096 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): frame end identified based on expiration of the \"Char- acter delay time\".",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0096",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#0097_108",
+    "text": "Error 16#0097 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): The frame was aborted because the maximum re- sponse time was reached..",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0097",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#0098_108",
+    "text": "Error 16#0098 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): frame end identified based on the fulfillment of the \"Read message length from message\" conditions.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0098",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#0099_108",
+    "text": "Error 16#0099 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): frame end identified based on the receipt of the \"End sequence\".",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#0099",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#7000_108",
+    "text": "Error 16#7000 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Block idle.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#7000",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#7001_108",
+    "text": "Error 16#7001 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Initial call for a new frame: Data transmission initiated.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#7001",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#7002_108",
+    "text": "Error 16#7002 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Interim call: Data transmission running.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#7002",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#8085_108",
+    "text": "Error 16#8085 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Invalid length. Solution: Select a suitable frame length. \u2022 UNIVERSAL = 1 (data communication via data sets): Depending on the module, permissible are: 1 to 1024/2048/4096 bytes \u2022 UNIVERSAL = 0 (data communication via IO data; Performance optimized for many short frames (Page 42)): Maximum length is 30 bytes (Send_P2P instruction).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8085",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#8087_108",
+    "text": "Error 16#8087 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): The number of characters received by the CM PTP module exceeds the supported number when UNIVERSAL = 0 (performance optimization option).. Solution: Select a suitable frame length or use UNIVERSAL = 1 (data communication via data sets). If UNIVERSAL = 0 (performance optimization option (Page 42)), the maximum length is 24 bytes (Re- ceive_P2P instruction).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8087",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#8088_108",
+    "text": "Error 16#8088 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): The specified length exceeds the range set in the receive buffer. Note: When the data type STRING has been specified at the BUFFER parameter, this error code also appears if the current string is shorter than the length speci- fied at the LENGTH parameter.. Solution: Change the range in the receive buffer or select a frame length which corresponds to the range set in the receive buffer. Depending on the module, permissible are: 1 to 1024/2048/4096 bytes",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8088",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#8090_108",
+    "text": "Error 16#8090 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Configuration error: Odd number of bytes for WString. Solution: Select an even number of bytes.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8090",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 108
+  },
+  {
+    "id": "s71500_16#8091_109",
+    "text": "Error 16#8091 (SIMATIC S7-1500 (CM PtP module)): Datasets 48, 49, and 50 are not supported when UNIVERSAL = 0 (performance optimization option).. Solution: Deactivate the \"Performance optimized for many short frames\" parameter. or Access the receive and transmit data via the IO data. or Use at least version V4.0 of the instruction library PtP Communication.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8091",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#8088_109",
+    "text": "Error 16#8088 [RECEIVE status and error codes] (SIMATIC S7-1500 (CM PtP module)): The number of characters received exceeds the num- ber specified at the BUFFER parameter.. Solution: Select a suitable frame length. Depending on the module, permissible are: 1 to 1024/2048/4096 bytes",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8088",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#818F_109",
+    "text": "Error 16#818F [Error message codes of the special functions] (SIMATIC S7-1500 (CM PtP module)): Incorrect parameter number setting (with USS only). Solution: Select a suitable parameter number (PARAM). The following are permissible: 0 to 2047",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#818F",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#8190_109",
+    "text": "Error 16#8190 [Error message codes of the special functions] (SIMATIC S7-1500 (CM PtP module)): Incorrect setting of the CRC calculation. Solution: Select a suitable value for the CRC calculation. The following are valid: deactivated or activated. Check whether the module addressed supports CRC calculation.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8190",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#8191_109",
+    "text": "Error 16#8191 [Error message codes of the special functions] (SIMATIC S7-1500 (CM PtP module)): Incorrect setting of the diagnostic error interrupt. Solution: Select a suitable value for \"Diagnostics interrupt\". The following are valid: Diagnostics interrupt deac- tivated or diagnostic interrupt activated. Check whether the module addressed supports the generation of diagnostic interrupts.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8191",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#8193_109",
+    "text": "Error 16#8193 [Error message codes of the special functions] (SIMATIC S7-1500 (CM PtP module)): The module does not support supply voltage diagnos- tics L+.. Solution: Select a suitable value for \"Diagnostics interrupt\". The following are valid: Diagnostics interrupt deac- tivated or diagnostic interrupt activated. Check whether the module addressed supports the generation of diagnostic interrupts.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8193",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#81A0_109",
+    "text": "Error 16#81A0 [Error message codes of the \"Port configuration\"] (SIMATIC S7-1500 (CM PtP module)): The module does not support this protocol.. Solution: Select a valid protocol for the module (PROTOCOL).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A0",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#81A1_109",
+    "text": "Error 16#81A1 [Error message codes of the \"Port configuration\"] (SIMATIC S7-1500 (CM PtP module)): The module does not support this data transmission rate.. Solution: Select a valid data transmission rate for the module (BAUD).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#81A2_109",
+    "text": "Error 16#81A2 [Error message codes of the \"Port configuration\"] (SIMATIC S7-1500 (CM PtP module)): The module does not support this parity setting.. Solution: Select a suitable value for \"Parity\" (PARITY). The following are valid: \u2022 None (1) \u2022 Even (2) \u2022 Odd (3) \u2022 Mark (4) \u2022 Space (5) \u2022 Any (6)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 109
+  },
+  {
+    "id": "s71500_16#81A3_110",
+    "text": "Error 16#81A3 (SIMATIC S7-1500 (CM PtP module)): The module does not support this number of data bits.. Solution: Select a suitable value for \"Number of data bits\" (DATABITS). The following are valid: \u2022 7 (2) \u2022 8 (1)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A3",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81A4_110",
+    "text": "Error 16#81A4 (SIMATIC S7-1500 (CM PtP module)): The module does not support this number of stop bits.. Solution: Select a suitable value for \"Number of stop bits\" (STOPBITS). The following are valid: \u2022 1 (1) \u2022 2 (2)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A4",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81A5_110",
+    "text": "Error 16#81A5 (SIMATIC S7-1500 (CM PtP module)): The module does not support this type of data flow control.. Solution: Select a valid data flow control for the module (FLOWCTRL).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A5",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81A7_110",
+    "text": "Error 16#81A7 (SIMATIC S7-1500 (CM PtP module)): Invalid value for XON or XOFF. Solution: Select suitable values for XON (XONCHAR) and XOFF (XOFFCHAR). Valid range of values: 0 to 127",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81A7",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81AA_110",
+    "text": "Error 16#81AA (SIMATIC S7-1500 (CM PtP module)): Invalid operating mode. Solution: Valid operating modes are: \u2022 Full duplex (RS232) (0) \u2022 Full duplex (RS422) four-wire mode (point-to- point) (1) \u2022 Full duplex (RS422) four-wire mode (multipoint master) (2)/ (CM PtP (ET 200SP)) \u2022 Full duplex (RS422) four-wire mode (multipoint slave) (3)/ (CM PtP (ET 200SP)) \u2022 Half duplex (RS485) two-wire operation. (4)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81AA",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81AB_110",
+    "text": "Error 16#81AB (SIMATIC S7-1500 (CM PtP module)): Invalid receive line initial state. Solution: Valid initial states are: \u2022 \"No\" default setting (0) \u2022 Signal R(A)=5 V, signal R(B)=0 V (break detection) (1): Can only be selected with: \"Full duplex (RS422) four-wire mode (point-to-point connection)\" and \"Full duplex (RS422) four-wire mode (multipoint slave)\". \u2022 Signal R(A)=0 V, signal R(B)=5 V (2): This default setting corresponds to the idle state (no active send operation).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81AB",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81AC_110",
+    "text": "Error 16#81AC (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Break detection\". Solution: Select a suitable value for \"Break detection\". The following are valid: \u2022 Break detection deactivated (0) \u2022 Break detection activated (1).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81AC",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81AF_110",
+    "text": "Error 16#81AF (SIMATIC S7-1500 (CM PtP module)): The module does not support this protocol.. Solution: Select a valid protocol for the module.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81AF",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 110
+  },
+  {
+    "id": "s71500_16#81B5_111",
+    "text": "Error 16#81B5 [Error codes of the \"Send configuration\"] (SIMATIC S7-1500 (CM PtP module)): More than two end delimiters or end sequence > 5 characters. Solution: Select suitable values for \"End delimiter\" and \"End sequence\". The following are valid: \u2022 deactivated (0), \u2022 1 (1) or 2 (2) end delimiters or \u2022 deactivated (0), \u2022 1 (1) up to 5 (5) characters for the end sequence.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81B5",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81B6_111",
+    "text": "Error 16#81B6 [Error codes of the \"Send configuration\"] (SIMATIC S7-1500 (CM PtP module)): Send configuration rejected because the 3964(R) protocol was selected. Solution: Make sure that no send configuration is transmitted if the 3964(R) protocol is set.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81B6",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C0_111",
+    "text": "Error 16#81C0 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): Invalid start condition. Solution: Select a suitable start condition. The following are valid: \u2022 Send break before frame start \u2022 Send Idle Line.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C0",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C1_111",
+    "text": "Error 16#81C1 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): Invalid end condition or no end condition selected. Solution: Select a suitable end condition (see Sending data with Freeport (Page 44)).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C3_111",
+    "text": "Error 16#81C3 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Maximum message length\". Solution: Select a suitable value for \"Maximum message length\" (MAXLEN). Valid range of values (depending on the module): 1 to 1024/2048/4096 (bytes)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C3",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C4_111",
+    "text": "Error 16#81C4 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Offset of the length specification in the message\". Solution: Select a suitable value for \"Offset of the length speci- fication in the message\". Valid range of values (depending on the module): 1 to 1024/2048/4096 (bytes)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C4",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C5_111",
+    "text": "Error 16#81C5 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Size of length field\". Solution: Select a suitable value for \"Size of length field\" (LENGTHSIZE). Valid range of values in bytes: \u2022 1 (1) \u2022 2 (2) \u2022 4 (4)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C5",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C6_111",
+    "text": "Error 16#81C6 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Number of characters not counted in length specification\". Solution: Select a suitable value for \"Number of characters not counted in length specification\" (LENGTHM). Valid range of values: 0 to 255 (bytes)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C6",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C7_111",
+    "text": "Error 16#81C7 [Error codes of the \"Receive configuration\"] (SIMATIC S7-1500 (CM PtP module)): The total of \"Offset in the message + size of length field + number of characters not counted\" is greater than the maximum frame length. Solution: Select a suitable value for \"Offset in message\", \"Size of length field\" and \"Number of characters not counted\". Valid range of values: \u2022 Offset in the message (depending on the mod- ule): 0 ... 1024/2048/4096 (bytes) \u2022 Size of length field: 1, 2, or 4 (bytes) \u2022 Number of characters not counted: 0 to 255 (bytes)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C7",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 111
+  },
+  {
+    "id": "s71500_16#81C8_112",
+    "text": "Error 16#81C8 (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Response timeout\". Solution: Select a suitable value for \"Response timeout\". Valid range of values: 1 to 65535 (ms)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C8",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81C9_112",
+    "text": "Error 16#81C9 (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Character delay time\". Solution: Select a suitable value for \"Character delay time\". Valid range of values: 1 to 65535 (bit times)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81C9",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81CB_112",
+    "text": "Error 16#81CB (SIMATIC S7-1500 (CM PtP module)): frame end sequence is activated, but no character is activated for the check. Solution: Activate one or several characters for the check.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81CB",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81CC_112",
+    "text": "Error 16#81CC (SIMATIC S7-1500 (CM PtP module)): frame start sequence is activated, but no character is activated for the check. Solution: Activate one or several characters for the check.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81CC",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81CD_112",
+    "text": "Error 16#81CD (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Prevent overwriting\". Solution: Select a suitable value for \"Prevent overwriting\". The following are valid: \u2022 Prevent overwriting is deactivated (0) or \u2022 Prevent overwriting is activated (1)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81CD",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81CE_112",
+    "text": "Error 16#81CE (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Clear receive buffer on startup\". Solution: Select a suitable value for \"Clear receive buffer on startup\". The following are valid: \u2022 Clear receive buffer on startup is deactivated (0) \u2022 Clear receive buffer on startup is activated (1)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81CE",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D0_112",
+    "text": "Error 16#81D0 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Receiving send request during runtime of a send command. Solution: Make sure that you do not receive an additional send request during runtime of a send command.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D0",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D1_112",
+    "text": "Error 16#81D1 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): The wait time for XON or CTS = ON has expired.. Solution: The communication partner has a fault, is too slow or is offline. Check the communication partner or change the parameters, if necessary.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D2_112",
+    "text": "Error 16#81D2 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): \"Hardware RTS always ON\": Send job canceled due to change from DSR = ON to OFF. Solution: Check the communication partner. Make sure that DSR is ON for the entire duration of transmission.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D3_112",
+    "text": "Error 16#81D3 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Send buffer overflow / send frame too long. Solution: Select a shorter frame length. The following are valid (depending on the module): 1 to 1024/2048/4096 (bytes)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D3",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D5_112",
+    "text": "Error 16#81D5 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Transmission canceled due to parameter changes, detected wire break, or CPU in STOP. Solution: Check the parameter assignment, wire break, and CPU status.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D5",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D6_112",
+    "text": "Error 16#81D6 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Transmission canceled because end identifier was not received. Solution: Check the parameter assignment of the end delimit- ers and the frame of the communication partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D6",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D7_112",
+    "text": "Error 16#81D7 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Communication error between the user program and module. Solution: Check the communication (e.g., matching the se- quence number).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D7",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81D8_112",
+    "text": "Error 16#81D8 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): Transmission attempt rejected because module is not configured. Solution: Configure the module.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81D8",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81DF_112",
+    "text": "Error 16#81DF [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): The module has reset the interface to the FB for one of the following reasons: \u2022 Module was restarted \u2022 Module parameters were reassigned \u2022 CPU STOP. Solution: \u2014",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81DF",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 112
+  },
+  {
+    "id": "s71500_16#81E0_113",
+    "text": "Error 16#81E0 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Receive buffer overflow/received frame too large. Solution: Increase the call rate for the receive function in the user program or configure communication with data flow control.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E0",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E1_113",
+    "text": "Error 16#81E1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Parity error. Solution: Check the connection line of the communication partners, or verify that the same data transmission rate, parity and stop bit number are configured for both devices.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E2_113",
+    "text": "Error 16#81E2 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Character frame error. Solution: Check the settings for start bit, data bits, parity bit, data transmission rate, and stop bit(s). More information on the error code is available in the FAQ with entry ID 109815286 on the Internet (https://support.industry.siemens.com/cs/ww/en/view /109815286).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E3_113",
+    "text": "Error 16#81E3 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Character overflow error. Solution: Firmware error: Please contact Customer Support.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E3",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E4_113",
+    "text": "Error 16#81E4 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: The total length of \"Offset in the mes- sage + size of length field + number of characters not counted\" is greater than the receive buffer. Solution: Select a suitable value for offset in message, size of length field, and number of characters not counted.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E4",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E5_113",
+    "text": "Error 16#81E5 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Break. Solution: Break in receive line to partner. Reconnect or switch on partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E5",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E6_113",
+    "text": "Error 16#81E6 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Maximum number of \"Buffered received frames\" ex- ceeded. Solution: In the user program call the instruction more often or configure a communication with data flow control or increase the number of buffered frames.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E6",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E7_113",
+    "text": "Error 16#81E7 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Synchronization error module and Receive_P2P. Solution: Make sure that different instances of the Re- ceive_P2P do not access the same module.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E7",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E8_113",
+    "text": "Error 16#81E8 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: The character delay time has expired before the message end criterion was detected. Solution: Partner device faulty or too slow. Check this, if re- quired, using an interface tester that is interconnect- ed in the transmission line.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E8",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81E9_113",
+    "text": "Error 16#81E9 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Modbus CRC error (only communications modules which support Modbus). Solution: Checksum error of the Modbus frame. Check the communication partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81E9",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81EA_113",
+    "text": "Error 16#81EA [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Modbus frame too short (only communications mod- ules which support Modbus). Solution: Minimum length of Modbus frame not met. Check the communication partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81EA",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81EB_113",
+    "text": "Error 16#81EB [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Maximum frame length reached. Solution: Select a shorter frame length at the communication partner. The following are valid (depending on the module): 1 to 1024/2048/4096 (bytes) Check the parameters for end of frame detection.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81EB",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81F0_113",
+    "text": "Error 16#81F0 [Error codes V24 accompanying signals] (SIMATIC S7-1500 (CM PtP module)): The module does not support V24 accompanying signals. Solution: You have tried to set accompanying signals for a module that does not support V24 accompanying signals. Make sure that this is an RS232 module or that RS232 mode (ET 200SP) is set.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81F0",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81F1_113",
+    "text": "Error 16#81F1 [Error codes V24 accompanying signals] (SIMATIC S7-1500 (CM PtP module)): No operation of the V24 accompanying signals. Solution: The V24 accompanying signals cannot be operated manually if hardware data flow control is active.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81F1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81F2_113",
+    "text": "Error 16#81F2 [Error codes V24 accompanying signals] (SIMATIC S7-1500 (CM PtP module)): The DSR signal cannot be set because the module has the type DTE.. Solution: Check the configured type of the module. The module type must be DCE (data communication equipment).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81F2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81F3_113",
+    "text": "Error 16#81F3 [Error codes V24 accompanying signals] (SIMATIC S7-1500 (CM PtP module)): The DTR signal cannot be set because the module has the type DCE.. Solution: Check the configured type of the module. The module type must be DTE (data terminal equip- ment).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81F3",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#81F4_113",
+    "text": "Error 16#81F4 [Error codes V24 accompanying signals] (SIMATIC S7-1500 (CM PtP module)): Block header error (e.g. incorrect block type or incor- rect block length). Solution: Check the instance DB and the block header.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#81F4",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 113
+  },
+  {
+    "id": "s71500_16#8201 1_114",
+    "text": "Error 16#8201 1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive_Conditions is a pointer to an invalid data type. Solution: Enter a pointer to one of the following data types: DB, BOOL, BYTE, CHAR, WORD, INT, DWORD, DINT, REAL, DATE, TIME_OF_DAY, TIME, S5TIME, DATE_AND_TIME, STRING",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8201 1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8225_114",
+    "text": "Error 16#8225 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive_Conditions points to an optimized memory area greater than 1 kB or Receive_Conditions points to an optimized memory area and the receive length is greater than the area addressed by Receive_Conditions.. Solution: Enter a pointer to an area with a maximum length of: \u2022 Optimized memory area: 1 KB \u2022 Non-optimized memory area: 4 KB Note: If the pointer points to an optimized memory area, do not send more than 1 KB.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8225",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8229 1_114",
+    "text": "Error 16#8229 1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive_Conditions is a pointer to BOOL with a num- ber of bits not equal to n * 8. Solution: If you are using a pointer to BOOL, the number of bits must be a multiple of 8.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8229 1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8280_114",
+    "text": "Error 16#8280 [Error codes, general] (SIMATIC S7-1500 (CM PtP module)): Negative acknowledgment when reading module. Solution: You can find more detailed information on error causes in the RDREC.STATUS static parameters and in the description of the SFB RDREC. \u2022 Check the input at the PORT parameter \u2022 Set the COM_RST parameter before the 1st call. More information on the error code is available in the FAQ with entry ID 109815286 on the Internet (https://support.industry.siemens.com/cs/ww/en/view /109815286).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8280",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8281_114",
+    "text": "Error 16#8281 [Error codes, general] (SIMATIC S7-1500 (CM PtP module)): Negative acknowledgment when writing module. Solution: Check the input at the PORT parameter You can find more detailed information on error causes in the WRREC.STATUS static parameters and in the description of the SFB WRREC. More information on the error code is available in the FAQ with entry ID 109815286 on the Internet (https://support.industry.siemens.com/cs/ww/en/view /109815286).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8281",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8282_114",
+    "text": "Error 16#8282 [Error codes, general] (SIMATIC S7-1500 (CM PtP module)): Module not available. Solution: Check the input at the PORT parameter and ensure that the module can be reached.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8282",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#82C1_114",
+    "text": "Error 16#82C1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Buffered received frames\".. Solution: Select a suitable value for \"Buffered received frames\". Valid range of values: 1 to 255",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#82C1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#82C2_114",
+    "text": "Error 16#82C2 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive configuration rejected because the 3964(R) protocol was selected. Solution: Make sure that no receive configuration is sent if the 3964(R) protocol is set.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#82C2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8301 1_114",
+    "text": "Error 16#8301 1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive_Conditions is a pointer to an invalid data type. Solution: Select a valid data type. The following are valid: DB, BOOL, BYTE, CHAR, WORD, INT, DWORD, DINT, REAL, DATE, TIME_OF_DAY, TIME, S5TIME, DATE_AND_TIME, STRING",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8301 1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8322_114",
+    "text": "Error 16#8322 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Range length error when reading a parameter. Solution: Check the input at the Receive_Conditions parameter",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8322",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8324_114",
+    "text": "Error 16#8324 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Range error when reading a parameter. Solution: Check the input at the Receive_Conditions parameter",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8324",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8328_114",
+    "text": "Error 16#8328 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Setting error when reading a parameter. Solution: Check the input at the Receive_Conditions parameter",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8328",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 114
+  },
+  {
+    "id": "s71500_16#8328 1_115",
+    "text": "Error 16#8328 1 [SEND status and error codes] (SIMATIC S7-1500 (CM PtP module)): BUFFER is a pointer to BOOL with a number of bits not equal to n * 8. Solution: If you are using a pointer to BOOL, the number of bits must be a multiple of 8.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8328 1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8332_115",
+    "text": "Error 16#8332 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Invalid data block at the Receive_Conditions parame- ter. Solution: Check the input at the Receive_Conditions parameter",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8332",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#833A_115",
+    "text": "Error 16#833A [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): The designation of the data block at the Re- ceive_Conditions parameter refers to a data block which is not loaded.. Solution: Check the input at the Receive_Conditions parameter",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#833A",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8351_115",
+    "text": "Error 16#8351 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Invalid data type. Solution: Check the input at the Receive_Conditions parameter",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8351",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8352 1_115",
+    "text": "Error 16#8352 1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive_Conditions does not point to a data block. Solution: Check the pointer to Receive_Conditions",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8352 1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8353 1_115",
+    "text": "Error 16#8353 1 [Error codes of the receive configuration] (SIMATIC S7-1500 (CM PtP module)): Receive_Conditions does not point to a structure of the type Receive_Conditions. Solution: Check the pointer to Receive_Conditions",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8353 1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8380_115",
+    "text": "Error 16#8380 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: Invalid value for \"Charac- ter delay time\".. Solution: Select a suitable value for \"Character delay time\" (CharacterDelayTime). Valid range of values: 1 ... 65535 (ms)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8380",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8381_115",
+    "text": "Error 16#8381 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: Invalid value for \"Re- sponse timeout\".. Solution: Select a suitable value for \"Response timeout\" (AcknDelayTime). Valid range of values: 1 ... 65535 (ms)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8381",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8382_115",
+    "text": "Error 16#8382 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: Invalid value for \"Priori- ty\".. Solution: Select a suitable value for \"Priority\" (Priority). The following are valid: \u2022 High (1) \u2022 Low (0)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8382",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8383_115",
+    "text": "Error 16#8383 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: Invalid value for \"Block check\". Solution: Select a suitable value for \"Block check\" (BCC). The following are valid: \u2022 With block check (1) \u2022 Without block check (0)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8383",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8384_115",
+    "text": "Error 16#8384 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: Invalid value for \"Con- nection attempts\".. Solution: Select a suitable value for \"Connection attempts\" (BuildupAttempts). Valid range of values: 1 to 255",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8384",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8385_115",
+    "text": "Error 16#8385 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: Invalid value for \"Trans- mission attempts\".. Solution: Select a suitable value for \"Transmission attempts\" (RepetitionAttempts). Valid range of values: 1 to 255",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8385",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8386_115",
+    "text": "Error 16#8386 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Runtime error: Number of connection attempts ex- ceeded. Solution: Check the interface cable and the transmission pa- rameters. Also check whether the receive function is config- ured correctly at the partner device.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8386",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8387_115",
+    "text": "Error 16#8387 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Runtime error: Number of transmission attempts ex- ceeded. Solution: Check the interface cable, the transmission parame- ters and the configuration of the communication partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8387",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8388_115",
+    "text": "Error 16#8388 [Error codes 3964(R) protocol] (SIMATIC S7-1500 (CM PtP module)): Runtime error: Error at the \"Block check character\" The internally calculated value of the block check character does not correspond to the block check character received by the partner at the connection end.. Solution: Check if the connection is seriously disrupted; in this case you may also occasionally see error codes. Check for proper function at the partner device, possibly by using an interface test device that is switched into the transmission line.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8388",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 115
+  },
+  {
+    "id": "s71500_16#8389_116",
+    "text": "Error 16#8389 (SIMATIC S7-1500 (CM PtP module)): Runtime error: Invalid character received while wait- ing for free receive buffer. Solution: The send request of the communication partner (STX, 02H) is only answered with DLE when the re- ceive buffer is empty. No additional character may be received before (except STX again). Check for proper function at the partner device, possibly by using an interface test device that is switched into the transmission line.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8389",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#838A_116",
+    "text": "Error 16#838A (SIMATIC S7-1500 (CM PtP module)): Runtime error: Logical error during receiving. After DLE was received, a further random character (other than DLE or ETX) was received.. Solution: Check if the partner always duplicates the DLE in the frame header and data string or the connection is terminated with DLE ETX. Check for proper function at the partner device, possibly by using an interface test device that is switched into the transmission line.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#838A",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#838B_116",
+    "text": "Error 16#838B (SIMATIC S7-1500 (CM PtP module)): Runtime error: Character delay time exceeded. Solution: Partner device too slow or faulty. Verify by using an interface test device that is switched into the transmission line, if necessary.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#838B",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#838C_116",
+    "text": "Error 16#838C (SIMATIC S7-1500 (CM PtP module)): Runtime error: Wait time for free receive buffer has started. Solution: In the user program call the instruction more often or configure a communication with data flow control.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#838C",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#838D_116",
+    "text": "Error 16#838D (SIMATIC S7-1500 (CM PtP module)): Runtime error: frame repetition does not start within 4 s after NAK. Solution: Check the communication partner. A received frame that is possibly corrupted must be repeated by the partner within 4 seconds.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#838D",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#838E_116",
+    "text": "Error 16#838E (SIMATIC S7-1500 (CM PtP module)): Runtime error: In idle mode, one or several characters (other than NAK or STX) were received.. Solution: Check for proper function of the partner device, possibly using an interface test device that is switched into the transmission line.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#838E",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#838F_116",
+    "text": "Error 16#838F (SIMATIC S7-1500 (CM PtP module)): Runtime error: Initialization conflict - Both partners have set high priority. Solution: Set the \"Low\" priority at one of the partners",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#838F",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#8391_116",
+    "text": "Error 16#8391 (SIMATIC S7-1500 (CM PtP module)): Parameter assignment error: 3964 configuration data rejected because Freeport is set. Solution: If the Freeport protocol is set, make sure that no 3964 parameter assignment data is sent.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8391",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#8FFF_116",
+    "text": "Error 16#8FFF [Error codes, general] (SIMATIC S7-1500 (CM PtP module)): The module is not ready temporarily due to a reset.. Solution: Repeat the request.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8FFF",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 116
+  },
+  {
+    "id": "s71500_16#8181_146",
+    "text": "Error 16#8181 [Configuration error of the interface - Modbus_Comm_Load] (SIMATIC S7-1500 (CM PtP module)): The module does not support this data transmission rate.. Solution: Select a valid data transmission rate for the module at the BAUD parameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8181",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 146
+  },
+  {
+    "id": "s71500_16#8182_146",
+    "text": "Error 16#8182 [Configuration error of the interface - Modbus_Comm_Load] (SIMATIC S7-1500 (CM PtP module)): The module does not support this parity setting.. Solution: Select a suitable value for \"Parity\" at the PARITY pa- rameter. The following are valid: \u2022 None (1) \u2022 Even (2) \u2022 Odd (3) \u2022 Mark (4) \u2022 Space (5) \u2022 Any (6)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8182",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 146
+  },
+  {
+    "id": "s71500_16#8183_146",
+    "text": "Error 16#8183 [Configuration error of the interface - Modbus_Comm_Load] (SIMATIC S7-1500 (CM PtP module)): The module does not support this type of data flow control.. Solution: Select a valid data flow control for the module at the FLOW_CTRL parameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8183",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 146
+  },
+  {
+    "id": "s71500_16#8184_146",
+    "text": "Error 16#8184 [Configuration error of the interface - Modbus_Comm_Load] (SIMATIC S7-1500 (CM PtP module)): Invalid value for \"Response timeout\".. Solution: Select a suitable value for \"Response timeout\" at the RESP_TO parameter. Valid range of values: 1 to 65535 (ms)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8184",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 146
+  },
+  {
+    "id": "s71500_16#8186_147",
+    "text": "Error 16#8186 [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Invalid slave address. Solution: Select a suitable slave address at the MB_ADDR pa- rameter. The following are valid: 1-247 at standard address area; 1-65535 at extended address area (0 is reserved for Broadcast)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8186",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8187_147",
+    "text": "Error 16#8187 [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Invalid value at MB_HOLD_REG parameter. Solution: Select a suitable value for the hold register at the MB_HOLD_REG parameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8187",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8188_147",
+    "text": "Error 16#8188 [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Invalid operating mode or broadcast (MB_ADDR = 0) and MODE parameter \u2260 1. Solution: Select the value 1 for MODE in Broadcast mode or select a different operating mode.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8188",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#818C_147",
+    "text": "Error 16#818C [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): The pointer to a MB_HOLD_REG area must be a data block or a bit memory address area.. Solution: Select a suitable value for the pointer to the MB_HOLD_REG area.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#818C",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8389_147",
+    "text": "Error 16#8389 [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Invalid data area definition: \u2022 Illegal value of data_type \u2022 DB number not permitted or not available: \u2013 Invalid value of db \u2013 DB number does not exist \u2013 DB number is already being used by another data area \u2013 DB with optimized access \u2013 DB is not in work memory \u2022 Illegal valid for length \u2022 Overlapping of MODBUS address areas that belong to the same MODBUS data type. Solution: Check the definition of the data areas. See section Access to data areas in DBs instead of direct access to MODBUS addresses as of version V4.0 (Page 135)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8389",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8452 1)_147",
+    "text": "Error 16#8452 1) [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): MB_HOLD_REG is not a pointer to a DB or a bit memory area. Solution: Check the MB_HOLD_REG pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8452 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8453 1)_147",
+    "text": "Error 16#8453 1) [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): MB_HOLD_REG is not a pointer of type BOOL or WORD. Solution: Check the MB_HOLD_REG pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8453 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8454 1)_147",
+    "text": "Error 16#8454 1) [Configuration error - Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): The area addressed by MB_HOLD_REG is longer than the DB, or the area addressed is too small for the number of data bytes to be read or written.. Solution: Check the MB_HOLD_REG pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8454 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 147
+  },
+  {
+    "id": "s71500_16#8455 1)_148",
+    "text": "Error 16#8455 1) (SIMATIC S7-1500 (CM PtP module)): MB_HOLD_REG points to a write-protected DB. Solution: Check the MB_HOLD_REG pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8455 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#8456 1)_148",
+    "text": "Error 16#8456 1) (SIMATIC S7-1500 (CM PtP module)): Error during instruction execution. The cause of the error is shown in the STATUS parameter.. Solution: Determine the value of the SFCSTATUS parameter. Check what this means in the description for SFC51, STATUS parameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8456 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#8180_148",
+    "text": "Error 16#8180 [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): Invalid value for MB_DB parameter. Solution: The value configured for MB_DB (instance data DB) at the Modbus_Comm_Load instruction is not valid. Check the interconnection of the Mod- bus_Comm_Load instruction and its error messages.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8180",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#8186_148",
+    "text": "Error 16#8186 [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): Invalid station address. Solution: Select a suitable station address at the MB_ADDR parameter. The following are valid: 1-247 at standard address area; 1-65535 at extended address area (0 is reserved for Broadcast)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8186",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#8189_148",
+    "text": "Error 16#8189 [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): Invalid data address. Solution: Select a suitable value for the data address at the DATA_ADDR parameter. See description Modbus_Master (Page 122) in the Info system",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8189",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#818A_148",
+    "text": "Error 16#818A [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): Invalid length. Solution: Select a suitable data length at the DATA_LEN pa- rameter. See description Modbus_Master (Page 122) in the Info system",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#818A",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#818B_148",
+    "text": "Error 16#818B [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): Invalid value for DATA_PTR. Solution: Select a suitable value for the data pointer at the DATA_PTR parameter (M or DB address). See description Modbus_Master (Page 122) in the Info system",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#818B",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#818C_148",
+    "text": "Error 16#818C [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): Interconnection error of the DATA_PTR parameter. Solution: Check the interconnection of the instruction.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#818C",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#818D_148",
+    "text": "Error 16#818D [Configuration error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): The area addressed by DATA_PTR is longer than the DB, or the area addressed is too small for the number of data bytes to be read or written.. Solution: Check the DATA_PTR pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#818D",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 148
+  },
+  {
+    "id": "s71500_16#80D1_149",
+    "text": "Error 16#80D1 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): The wait time for XON or CTS = ON has expired.. Solution: The communication partner has a fault, is too slow or is offline. Check the communication partner or change the parameters, if necessary.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80D1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80D2_149",
+    "text": "Error 16#80D2 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): \"Hardware RTS always ON\": Send job canceled due to change from DSR = ON to OFF. Solution: Check the communication partner. Make sure that DSR is ON for the entire duration of transmission.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80D2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80E0_149",
+    "text": "Error 16#80E0 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Send buffer overflow / send frame too long. Solution: In the user program call the instruction more often or configure a communication with data flow control.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80E0",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80E1_149",
+    "text": "Error 16#80E1 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Parity error. Solution: Check the connection line of the communication partners, or verify that the same data transmission rate, parity and stop bit number are configured for both devices.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80E1",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80E2_149",
+    "text": "Error 16#80E2 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Character frame error. Solution: Check the settings for start bit, data bits, parity bit, data transmission rate, and stop bit(s).",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80E2",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80E3_149",
+    "text": "Error 16#80E3 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Character overflow error. Solution: Check the number of data in the frame of the com- munication partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80E3",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80E4_149",
+    "text": "Error 16#80E4 [Communication errors - Modbus_Master and Modbus_Slave] (SIMATIC S7-1500 (CM PtP module)): Frame aborted: Maximum frame length reached. Solution: Select a shorter frame length at the communication partner. The following are valid (depending on the module): 1-1024/2048/4096 (bytes)",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80E4",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80C8_149",
+    "text": "Error 16#80C8 [Communication error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): The slave does not respond within the set time. Solution: Check the data transmission rate, parity and wiring of the slave.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80C8",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#80C9_149",
+    "text": "Error 16#80C9 [Communication error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): The slave does not respond within the time set by Blocked_Proc_Timeout.. Solution: Check the setting for Blocked_Proc_Timeout. Check if the module has been configured with the Modbus_Comm_Load instruction. The module may possibly need to be reconfigured using Mod- bus_Comm_Load after a pull/plug or after voltage recovery.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#80C9",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8200_149",
+    "text": "Error 16#8200 [Communication error - Modbus_Master] (SIMATIC S7-1500 (CM PtP module)): The interface is busy with an ongoing request.. Solution: Repeat the command later. Make sure that there are no commands still running before you start a new one.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8200",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8380_149",
+    "text": "Error 16#8380 [Protocol error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): CRC error. Solution: Checksum error of the Modbus frame. Check the communication partner.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8380",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8381_149",
+    "text": "Error 16#8381 [Protocol error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): The function code is not supported or is not supported for broadcast.. Solution: Check the communication partner and make sure that a valid function code is sent.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8381",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8382_149",
+    "text": "Error 16#8382 [Protocol error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Invalid length information in the request frame. Solution: Select a suitable data length at the DATA_LEN pa- rameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8382",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8383_149",
+    "text": "Error 16#8383 [Protocol error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Invalid data address in the request frame. Solution: Select a suitable value for the data address at the DATA_ADDR parameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8383",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8384_149",
+    "text": "Error 16#8384 [Protocol error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Invalid data value error in the request frame. Solution: Check the data value in the request frame of the Modbus master",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8384",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8385_149",
+    "text": "Error 16#8385 [Protocol error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): The diagnostic value is not supported by the Modbus slave (function code 08). Solution: The Modbus slave only supports the diagnostic val- ues 16#0000 and 16#000A.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8385",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 149
+  },
+  {
+    "id": "s71500_16#8381_150",
+    "text": "Error 16#8381 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Response frame from Modbus slave with the following error message: The function code is not supported.. Solution: Check the communication partner and make sure that a valid function code is sent.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8381",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8382_150",
+    "text": "Error 16#8382 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Response frame from Modbus slave with the following error message: Invalid length. Solution: Select a suitable data length.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8382",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8383_150",
+    "text": "Error 16#8383 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Response frame from Modbus slave with the following error message: Invalid data address in the request frame. Solution: Select a suitable value for the data address at the DATA_ADDR parameter.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8383",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8384_150",
+    "text": "Error 16#8384 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Response frame from Modbus slave with the following error message: Data value error. Solution: Check the request frame to the Modbus slave.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8384",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8385_150",
+    "text": "Error 16#8385 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Response frame from Modbus slave with the following error message: The diagnostic value is not supported by the Modbus slave. Solution: The Modbus slave only supports the diagnostic val- ues 16#0000 and 16#000A.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8385",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8386_150",
+    "text": "Error 16#8386 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): The returned function code does not match the re- quested function code.. Solution: Check the response frame and the addressing of the slave.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8386",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8387_150",
+    "text": "Error 16#8387 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): A slave that was not requested answers. Solution: Check the response frame of the device. Check the address settings of the slave.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8387",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8388_150",
+    "text": "Error 16#8388 [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Error in the response of the slave to a write request.. Solution: Check the response frame of the slave.",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8388",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8828 1)_150",
+    "text": "Error 16#8828 1) [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): DATA_PTR points to a bit address that is not equal to n * 8. Solution: Check the DATA_PTR pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8828 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8852 1)_150",
+    "text": "Error 16#8852 1) [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): DATA_PTR is not a pointer to a DB or a bit memory area. Solution: Check the DATA_PTR pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8852 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8853 1)_150",
+    "text": "Error 16#8853 1) [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): DATA_PTR is not a pointer of type BOOL or WORD. Solution: Check the DATA_PTR pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8853 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8855 1)_150",
+    "text": "Error 16#8855 1) [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): DATA_PTR points to a write-protected DB. Solution: Check the DATA_PTR pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8855 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8856 1)_150",
+    "text": "Error 16#8856 1) [Protocol error - Modbus_Master (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Error during call of SFC51. Solution: Call the Modbus_Master instruction again",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8856 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8428 1)_150",
+    "text": "Error 16#8428 1) [Error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): MB_HOLD_REG points to a bit address that is not equal to n * 8. Solution: Check the MB_HOLD_REG pointer",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8428 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "s71500_16#8456 1)_150",
+    "text": "Error 16#8456 1) [Error - Modbus_Slave (only communications modules that support Modbus)] (SIMATIC S7-1500 (CM PtP module)): Error during call of SFC51. Solution: Call the Modbus_Slave instruction again",
+    "doc_type": "error_code",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1500 (CM PtP module)",
+    "code": "16#8456 1)",
+    "source_doc": "s71500_cm_ptp_function_manual.pdf",
+    "page": 150
+  },
+  {
+    "id": "easybook_6.5.4.1",
+    "text": "Reading the states of the LEDs on the CPU (Section 6.5.4.1, SIMATIC S7-1200): The LED instruction allows your user program to determine the state of the LEDs on the CPU. You can use this information for programming a tag for your HMI device. RET_VAL returns the following LED states for the CPU: RUN/STOP (green or yellow), Error (red), MAINT/maintenance (yellow), Link (green), Tx/Rx transmit/receive (yellow).",
+    "doc_type": "concept_explainer",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1200",
+    "code": null,
+    "source_doc": "s71200_easy_book_en-US_en-US.pdf",
+    "page": 127
+  },
+  {
+    "id": "easybook_6.5.4.2",
+    "text": "Instructions for reading the diagnostic status of the devices (Section 6.5.4.2, SIMATIC S7-1200): STEP 7 includes instructions for reading the status information provided by hardware devices on your network. GET_DIAG reads diagnostic information from a specified hardware device. DeviceStates reads the status of PROFINET or PROFIBUS devices. ModuleStates reads the status of PROFINET or PROFIBUS modules. Get_IM_Data checks the identification and maintenance (I&M) data for a specified module or sub-module.",
+    "doc_type": "concept_explainer",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1200",
+    "code": null,
+    "source_doc": "s71200_easy_book_en-US_en-US.pdf",
+    "page": 128
+  },
+  {
+    "id": "easybook_11.10",
+    "text": "Displaying the diagnostic events (Section 11.10, SIMATIC S7-1200): The CPU provides a diagnostic buffer that contains an entry for each diagnostic event, such as a transition of the CPU operating mode or errors detected by the CPU or modules. To access the diagnostic buffer, you must be online. Each entry includes a date and time the event occurred, an event category, and an event description. Entries are displayed in chronological order, with the most recent event at the top. While the CPU maintains power, up to 50 of the most recent events are available in this log. When the log is full, a new event replaces the oldest event. When power is lost, the ten most recent events are saved.",
+    "doc_type": "concept_explainer",
+    "machine_type": "plc",
+    "model": "SIMATIC S7-1200",
+    "code": null,
+    "source_doc": "s71200_easy_book_en-US_en-US.pdf",
+    "page": 345
+  }
+]
