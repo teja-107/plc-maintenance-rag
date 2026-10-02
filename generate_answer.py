@@ -127,6 +127,18 @@ class AnswerGenerator:
                 "sources": [top_record],
             }
 
+        # DISABLE_RERANK mode: calibrated thresholds don't apply (see
+        # rerank.py) - generate an answer but label confidence honestly as
+        # unverified, rather than pretending the threshold check still works
+        if top_rerank == -1.0:
+            records = [r for r, _, _ in results]
+            answer_text, _ = self.generate_grounded_answer(query, records)
+            return {
+                "answer": answer_text,
+                "confidence": "unverified (reranker disabled - no calibrated confidence available)",
+                "sources": records,
+            }
+
         # Layer 1: very low score -> refuse immediately, no LLM call needed
         if top_rerank < LOW_THRESHOLD:
             return {

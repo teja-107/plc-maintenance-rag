@@ -27,11 +27,24 @@ from hybrid_search import HybridRetriever, reciprocal_rank_fusion
 RERANKER_MODEL = os.environ.get("RERANKER_MODEL", "cross-encoder/ms-marco-MiniLM-L-6-v2")
 
 
+DISABLE_RERANK = os.environ.get("DISABLE_RERANK", "false").lower() == "true"
+# Fallback for severe memory constraints: skip loading the reranker model
+# entirely, falling back to hybrid (BM25+dense) retrieval only. Measured
+# cost of this fallback (from run_eval.py, with the small MiniLM embedding
+# model): Recall@1 71.4%, Recall@3 78.6% (vs 78.6%/85.7% with reranking) -
+# a real, documented quality tradeoff, not a guess.
+
+
 class RerankingRetriever(HybridRetriever):
     def __init__(self):
         super().__init__()
-        print(f"Loading reranker model: {RERANKER_MODEL} ...")
-        self.reranker = CrossEncoder(RERANKER_MODEL)
+        if DISABLE_RERANK:
+            print("DISABLE_RERANK=true - skipping reranker model entirely "
+                  "(memory-constrained fallback, uses hybrid-only retrieval)")
+            self.reranker = None
+        else:
+            print(f"Loading reranker model: {RERANKER_MODEL} ...")
+            self.reranker = CrossEncoder(RERANKER_MODEL)
 
     def search(self, query, top_k=3, candidate_k=15):
         # exact-code fast path still bypasses everything, same as before
@@ -46,6 +59,17 @@ class RerankingRetriever(HybridRetriever):
         # take a generous pool of fused candidates, then rerank them
         pool = fused[:candidate_k]
         candidates = [(self.by_id[doc_id], fused_score) for doc_id, fused_score in pool]
+
+        if self.reranker is None:
+            # DISABLE_RERANK mode: the 0.15/0.30 confidence thresholds in
+            # generate_answer.py were calibrated on cross-encoder rerank
+            # scores (0-1 range) and do NOT transfer to RRF fused scores
+            # (a different, much smaller scale) - rather than silently
+            # produce meaningless confidence labels, return a sentinel
+            # (-1.0) so generate_answer.py can detect this mode explicitly
+            # and skip threshold-based confidence, instead of guessing.
+            top = candidates[:top_k]
+            return [(record, fused_score, -1.0) for record, fused_score in top]
 
         pairs = [(query, record["text"]) for record, _ in candidates]
         rerank_scores = self.reranker.predict(pairs)
