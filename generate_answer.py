@@ -62,15 +62,25 @@ class AnswerGenerator:
         # DIAGNOSTIC: list every env var whose name contains "GROQ" to catch
         # naming typos, trailing whitespace, or wrong-service confusion -
         # this prints to the regular deploy log, no Shell access needed.
-        groq_related = {k: f"(len={len(v)})" for k, v in os.environ.items() if "GROQ" in k.upper()}
-        print(f"DEBUG: env vars containing 'GROQ': {groq_related if groq_related else 'NONE FOUND'}")
+        # Streamlit Cloud stores secrets in st.secrets, not plain os.environ -
+        # check both so the same code works locally/Colab (os.environ) and
+        # on Streamlit Cloud (st.secrets), without needing separate code paths.
         api_key = os.environ.get("GROQ_API_KEY")
         if not api_key:
+            try:
+                import streamlit as st
+                api_key = st.secrets.get("GROQ_API_KEY")
+            except Exception:
+                pass  # not running under Streamlit, or secrets not configured
+
+        groq_related = {k: f"(len={len(v)})" for k, v in os.environ.items() if "GROQ" in k.upper()}
+        print(f"DEBUG: env vars containing 'GROQ': {groq_related if groq_related else 'NONE FOUND'}")
+        if not api_key:
             raise RuntimeError(
-                "GROQ_API_KEY environment variable not set. Get a free key at "
-                "console.groq.com and set it as an environment variable "
-                "(locally: export GROQ_API_KEY=... ; on Render: add it in "
-                "the service's Environment settings)."
+                "GROQ_API_KEY not found in os.environ or st.secrets. Get a "
+                "free key at console.groq.com and set it as an environment "
+                "variable (locally/Render) or in Streamlit Cloud's "
+                "Settings -> Secrets as: GROQ_API_KEY = \"your_key_here\""
             )
         self.client = Groq(api_key=api_key)
 
