@@ -12,8 +12,24 @@ Usage:
     python rerank.py
 """
 import os
+import math
 from fastembed.rerank.cross_encoder import TextCrossEncoder
 from hybrid_search import HybridRetriever, reciprocal_rank_fusion
+
+
+def sigmoid(x):
+    """Maps any raw real-valued score into (0, 1). Needed because different
+    cross-encoder models output scores on different scales: BAAI/bge-reranker
+    (used during threshold calibration) happens to output scores already in
+    a roughly 0-1 range, but Xenova/ms-marco-MiniLM-L-6-v2 (the current,
+    memory-lighter model) outputs raw, unbounded logits. Without this
+    normalization, the calibrated LOW_THRESHOLD/HIGH_THRESHOLD values in
+    generate_answer.py become meaningless for the new model's score scale -
+    this was a real bug found via live deployment testing (a genuinely
+    correct match was being refused because its raw logit fell below 0.15).
+    Applying sigmoid here means the SAME calibrated thresholds work
+    correctly regardless of which reranker model is swapped in later."""
+    return 1 / (1 + math.exp(-x))
 
 # MEMORY-CONSTRAINED DEPLOYMENT NOTE: swapped from sentence-transformers'
 # CrossEncoder (PyTorch-based) to fastembed's TextCrossEncoder (ONNX
@@ -70,7 +86,8 @@ class RerankingRetriever(HybridRetriever):
             return [(record, fused_score, -1.0) for record, fused_score in top]
 
         documents = [record["text"] for record, _ in candidates]
-        rerank_scores = list(self.reranker.rerank(query, documents))
+        raw_scores = list(self.reranker.rerank(query, documents))
+        rerank_scores = [sigmoid(s) for s in raw_scores]  # normalize to (0,1)
 
         combined = [
             (record, fused_score, float(rerank_score))
