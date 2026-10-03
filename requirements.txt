@@ -1,4 +1,4 @@
-gradio
+streamlit
 chromadb==1.5.9
 fastembed
 rank_bm25
