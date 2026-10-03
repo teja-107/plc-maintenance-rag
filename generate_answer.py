@@ -59,6 +59,11 @@ class AnswerGenerator:
     def __init__(self):
         self.retriever = RerankingRetriever()
         print(f"Connecting to Groq API (model: {LLM_MODEL}) ...")
+        # DIAGNOSTIC: list every env var whose name contains "GROQ" to catch
+        # naming typos, trailing whitespace, or wrong-service confusion -
+        # this prints to the regular deploy log, no Shell access needed.
+        groq_related = {k: f"(len={len(v)})" for k, v in os.environ.items() if "GROQ" in k.upper()}
+        print(f"DEBUG: env vars containing 'GROQ': {groq_related if groq_related else 'NONE FOUND'}")
         api_key = os.environ.get("GROQ_API_KEY")
         if not api_key:
             raise RuntimeError(
