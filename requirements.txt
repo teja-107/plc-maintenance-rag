@@ -1,5 +1,5 @@
 gradio
 chromadb
-sentence-transformers
+fastembed
 rank_bm25
 groq

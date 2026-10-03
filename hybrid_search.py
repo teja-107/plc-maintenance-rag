@@ -15,20 +15,23 @@ the embedding model and the persisted chroma_db/ folder from that script.
 Usage:
     python hybrid_search.py
 """
+import os
 import json
 import re
 import chromadb
 from rank_bm25 import BM25Okapi
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 
 CORPUS_PATH = "unified_corpus.json"
 DB_PATH = "./chroma_db"
 COLLECTION_NAME = "plc_maintenance_kb"
-# Switched from BAAI/bge-base-en-v1.5 (~440MB) to all-MiniLM-L6-v2 (~90MB)
-# to fit within Render's free-tier 512MB RAM limit. Must re-embed the corpus
-# with embed_and_store.py using this same model before this will work -
-# embeddings from different models aren't compatible with each other.
-MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+# Switched from sentence-transformers (PyTorch-based, ~300-400MB baseline
+# overhead just from importing torch) to fastembed (ONNX Runtime-based,
+# inference-only, much smaller footprint) to fit Render's free-tier 512MB
+# RAM limit. MUST match the model used in embed_and_store.py to build
+# chroma_db - embeddings from different models aren't compatible.
+MODEL_NAME = os.environ.get("EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
+USE_BGE_PREFIX = "bge" in MODEL_NAME.lower()
 RRF_K = 60  # standard RRF constant - dampens the influence of any single rank
 
 
@@ -60,7 +63,7 @@ class HybridRetriever:
         self.bm25_ids = [r["id"] for r in self.records]  # positional order matches bm25 index
 
         print("Loading embedding model + Chroma collection ...")
-        self.model = SentenceTransformer(MODEL_NAME)
+        self.model = TextEmbedding(model_name=MODEL_NAME)
         client = chromadb.PersistentClient(path=DB_PATH)
         self.collection = client.get_collection(COLLECTION_NAME)
 
@@ -73,8 +76,9 @@ class HybridRetriever:
         return [self.bm25_ids[i] for i in ranked_idx if scores[i] > 0]
 
     def dense_search(self, query, top_k=10):
-        q_emb = self.model.encode([f"query: {query}"], normalize_embeddings=True)
-        results = self.collection.query(query_embeddings=q_emb.tolist(), n_results=top_k)
+        q_prefixed = f"query: {query}" if USE_BGE_PREFIX else query
+        q_emb = list(self.model.embed([q_prefixed]))[0]
+        results = self.collection.query(query_embeddings=[q_emb.tolist()], n_results=top_k)
         return results["ids"][0]
 
     def exact_code_lookup(self, query):
